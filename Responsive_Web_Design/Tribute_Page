@@ -1,0 +1,59 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title></title>
+<style type="text/css">Body {
+  background-image: url(data:image/jpeg;base64,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); /*This background image is the artwork to the My Bloody Valentine album "Loveless". Though it has been manipulated and is not being used for commercial use, I still wish this to be known. If this is a problem I will gladly remove it.*/
+  background-size: 300%;
+  color: #black;
+  text-align: center;}
+img {
+  max-width: 75%;
+  display: block;
+  margin: auto;
+  border: 2.5px solid black;}
+
+h1{
+  font-size: 50px;
+}
+h3{
+  font-size: 20px;
+}
+li{
+  text-align: left;
+  }
+</style>
+</head>
+<body>
+<div id="main">
+<h1 id="title">~The Fender Jazzmaster~</h1>
+
+<div id="sub-title">
+<h3>*The Guitar of the Underground*</h3>
+</div>
+
+<div id="img-div"><img alt="Kevin Shields Jazzmaster." id="image" src="https://i.pinimg.com/736x/7b/c0/64/7bc06427935bba4399470545d68326ef--jazzmaster-fender-guitars.jpg" />
+<div id="img-caption">Kevin Shields of My Bloody Valentine</div>
+<br />
+<br />
+
+<div id="tribute-info">A Brief History of <strong><em>Tone</em></strong>
+
+<ul>
+	<li>1959- Unveiled at the NAMM show in New York City and marketed as a guitar for Jazz musicians.</li>
+	<li>1960&#39;s- Jazz guitarists reject the instrument, but it finds a home amongst a new style of music called &quot;surf&quot;.</li>
+	<li>Early 1970&#39;s- The Jazzmaster fades away into obscurity, thus creating an affordable second hand market.</li>
+	<li>Late 1970&#39;s/ Early 1980&#39;s- The guitarists who picked up the forgotten, cheap Fender begin to form bands.</li>
+	<li>1980&#39;s- Fender stops production of their failed instrument. Meanwhile bands of the new-wave era and early alternative scenes continue to use the instrument in new and creative ways.</li>
+	<li>1985- Fender Japan reintroduces the Jazzmaster.</li>
+	<li>1991- &quot;The Year Punk Broke&quot; My Bloody Valentine releases their seminal album &quot;Loveless&quot; influencing a generation to think of &quot;guitar&quot; in a different way. Nirvana releases &quot;Nevermind&quot; and changes society. &quot;Alternative&quot; is now big business.</li>
+	<li>Late 1990&#39;s- The &quot;alternative&quot; craze begins to die out.</li>
+	<li>2000&#39;s and Beyond- The Jazzmaster settles into its niche as the guitar of the underground.</li>
+</ul>
+</div>
+
+<h4>Read more about the Fender Jazzmaster<a href="https://en.wikipedia.org/wiki/Fender_Jazzmaster" id="tribute-link" target="_blank"> here </a></h4>
+</div>
+</div>
+</body>
+</html>
