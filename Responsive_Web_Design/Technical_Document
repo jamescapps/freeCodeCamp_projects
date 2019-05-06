@@ -1,0 +1,107 @@
+<html>
+ <title>Electric Guitar Setup Technical Document</title>
+ <head> 
+  <style>
+   body {
+    display: grid;
+    grid-template-columns: minmax(200px, auto) 1fr;
+    grid-template-areas: "navbar main-content";
+    grid-gap: 100px;
+   }
+   #navbar {
+    grid-area: navbar;
+    position: fixed;
+   }
+   #navbar a {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+   }
+   #main-doc {
+    grid-area: main-content;
+   } 
+   header {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Arial Black";
+    text-align: center;
+   }
+   code {
+    background-color: grey;
+    display: block;
+    padding: 10px;
+   }
+   @media screen and (max-width: 750px) {
+    body {
+     grid-template-columns: 1fr;
+     grid-template-areas: "navbar" "main-content";
+    }
+    #navbar {
+     position: inherit;
+    }
+   }  
+  </style>
+ </head>
+ <body>
+  <nav id="navbar"
+   <header>Electric Guitar Setup</header>
+   <a href="#Introduction" class="nav-link">Introduction</a>
+   <a href="#Re-string" class="nav-link">Re-string</a>
+   <a href="#Neck_Angle" class="nav-link>Neck Angle</a>
+   <a href="#Intonation" class="nav=link">Intonation</a>
+   <a href="#Saddle_Height" class="nav-link">Saddle Height</a>
+   <a href="#Electronics" class="nav-link">Electronics</a>
+  </nav>
+  <main id="main-doc">
+   <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <p>Setting up an electric guitar is a combination of science and art.  It can make all the difference in how your guitar plays.  Just like playing guitar, it takes time and practice to get good at it.</p>
+    <p>To set up an electric guitar, you will need the following items.</p>
+    <ul>
+     <li>New strings</li>
+     <li>Tuner</li>
+     <li>Appropriately sized Allen wrench for the truss rod.</li>
+     <li>Screwdriver</li>
+     <li>Appropriately sized Allen wrench for the saddle.</li>
+    </ul>
+   </section>
+   <section class="main-section" id="Re-string">
+    <header>Re-string</header>
+    <p>Re-stringing the guitar is the first step.  This where everything starts.  The string guage will affect the neck angle and the intonation so it must be applied first.</p>
+    <p>Send the end of the string without the ball through the back of the guitar and up toward the headstock.  The ball will catch and keep the string in place.  Make sure the string aligns with the bridge, the nut and the string tree (if applicable).  Bring the string through the tuner and begin winding.  Make sure to keep tension on the string as you turn.  A string-winder is a helpful tool.  Repeat this step for all six strings and tune to pitch.</p>
+   </section>
+   <section class="main-section" id="Neck_Angle">
+    <header>Neck Angle</header>
+    <p>The truss rod in your guitar controls the amount of relief in the neck.  Too much relief and you will have high action.  Not enough relief and your strings will buzz.</p>
+    <p>Use an Allen wrench to adjust your truss rod.  The amount of relief will depend on playing style.  For now, try to get the neck straight.  Go in quarter turn increments and remember- righty tighty, lefty loosey!</p>
+    <code>Turn your truss rod to the right to reduce relief.  This will lower the string action.</code>
+    <code>Turn your truss rod to the left to add relief.  This will raise the string action.</code> 
+   </section>
+   <section class="main-section" id="Intonation">
+    <header>Intonation</header>
+    <p>Intonation is what determines if your guitar stays in tune as you fret the notes on the fretboard.  Intonation is checked with the open string, and the 12th fret.  IT is controlled by the saddle screw on the back of your bridge.</p>
+    <p>Tune your string to pitch.  Then pick your 12th fret harmonic, and check the tuning again.</p>
+    <code>If the string is sharp, move the saddle back towards the bridge.</code>
+    <code>If the string is flat, move the saddle forward towards the headstock.</code>
+   </section>
+   <section class="main-section" id="Saddle_height">
+    <header>Saddle Height</header>
+    <p>Saddle height, along with the neck angle, determine the action of the guitar.</p>
+    <p>You want your string height close to the fretboard, but not so close that it buzzes.</p>
+    <code>To lower the string height, move the saddle down.</code>
+    <code>To raise the string height, move the saddle up.</code>
+   </section>
+   <section class="main-section" id="Electronics">
+    <header>Electronics</header>
+    <p>While setting up your guitar you should make sure that your electronics are functional, as well as adjust the height of the pickups relative to your strings</p>
+    <p>The closer to the strings your pickups are, the more output your pickups will have.  Use a screwdriver to adjust accordingly.</p>
+    <code>To reduce output, move the pickups away from your strings</code>
+    <code>To increase output, move the pickups towards your strings</code>
+   </section>
+  </main>
+ </body>
+</html>
