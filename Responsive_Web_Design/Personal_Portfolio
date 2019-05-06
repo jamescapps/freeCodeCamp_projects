@@ -1,0 +1,197 @@
+<html>
+ <head>
+  <title>My portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fahkwang|Roboto+Mono" rel="stylesheet">
+  <style>
+   * {
+    margin: 0;
+   }
+   header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    font-family: "Fahkwant", sans-serif;
+   }
+   #welcome-section {
+    background-image: url("https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+    min-height: 100vh;
+    background-size: cover;
+    bacground-position: center;
+   }
+   h1, p, .name {
+    color: white;
+   }
+   h1 {
+    font-size: 50px;
+    padding: 75px;
+   }
+   p {
+    font-size: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: -4em;
+    text-decoration: none;
+    font-family: "Lucida Console", Monaco, monospace;
+   }
+   .nav {
+    display: block;
+    position: fixed;
+    padding: 63%;
+    right-margin: 1875%;
+   }
+   ul {
+    text-align: right;
+    font-size: 2vw;
+   }
+   li {
+    display: inline;
+    padding: 15px;
+    margin: 125px;
+   }
+   li a:hover {
+    transition: 0.4s;
+    border: 2px solid white;
+   }
+   #navbar a{
+    text-decoration: none;
+    color: white;
+    position: fixed;
+   }
+   h2 {
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+   }
+   #projects {
+    background-color: #a6a4a3;
+    background-size: cover;
+    min-height: 100%;
+    font-color: black;
+   }
+   a:link {
+    color: white;
+    text-decoration: none;
+   }
+   a:visited {
+    color: white;
+    transition: 1s;
+   }
+   a:hover {
+    color: #3daacf;
+    border: 2px solid #3daacf;
+    transition: 0.75s;
+   }
+   .project-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 50%;
+    transition: transform 0.5s;
+   }/*https://designshack.net/articles/css/joshuajohnson-2/*/
+   .project-pic:hover {
+    transform: scale(1.25);
+    filter: blur(8px);
+   }
+   .project-tile {
+    text-align: center;
+    padding: 50px;
+    font-size: 2vw;
+    font-family: "Staatliches", cursive;
+   }
+   .jodyfoster {
+    position: relative;
+    padding: 70px;
+    display: inline-block;
+    margin: auto;
+    border-bottom: 0.7em solid #3daacf;
+    font-size: 20px;
+   }
+   #contact {
+    background-color: black;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    padding: 100px;
+    color: black;
+   }
+   }
+   .me {
+    height: auto;
+    border: 3px; solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
+   @media only screen and (max-width: 888px) {
+    .jodyfoster {
+     font-size: 7px;
+     border-bottom: 0.175em solid #3daacf;
+    }
+   }
+   @media only screen and (max-width: 1000px) {
+    p {
+     font-size: 9px;
+    }
+   }
+   @media only screen and (max-height: 500px) {
+    p {
+     bottom: -2em;
+    }
+   }
+  </style>
+ </head>
+
+ <body>
+  <header>
+   <nav id="navbar">
+    <ul>
+     <li><a class="nav-link" href="#welcome-section">About</a></li>
+     <li><a class="nav-link" href="#projects">Work</a></li>
+     <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+  </header>
+  <div id="welcome-section">
+   <h1>James J. Capps</h1>
+   <p align=left><a href="http://jamesjcapps.com/music" target="_blank">I make music.</p></a>
+   <p align=center><a href="http://www.legacymusic.com" target="_blank">I sell guitars.</p></a>
+   <p align=right><a href="https://www.freecodecamp.org/milkish" target="_blank">I am learning to code.</p></a>
+  </div>
+  <div id="projects">
+   <br><br>
+   <h2>These are pages I have built.<br> ..so far.</h2>
+   <div class="project-tile">Technical Document</div>
+   <a href="https://jamesjcapps.com/technicaldocument" target="_blank">
+   <img class="project-pic" src="https://i.postimg.cc/nhcn4NV6/technical-document-preview.png" alt="Technical Document">
+   </a>
+   <div class="project-tile">Product Landing</div>
+   <a href="https://jamesjcapps.com/productpage" target="_blank">
+   <img class="project-pic" src="https://i.postimg.cc/tTDs1dbj/product-landing-page-preview.png" alt="Product Landing">
+   </a>
+   <div class="project-tile">Form</div>
+   <a href="https://jamesjcapps.com/form" target="_blank">
+   <img class="project-pic" src="https://i.postimg.cc/1XWhTXyQ/form-preview.png" alt="Form">
+   </a>
+   <div class="project-tile">Tribute</div>
+   <a href="https://jamesjcapps.com/tributepage" target="_blank">
+   <img class="project-pic" src="https://i.postimg.cc/P5s8J5my/tribute-page-preview.png" alt="Tribute Page">
+   </a>
+  </div>   
+  <div id="contact">
+   <img class="me" src="https://i.postimg.cc/sf03wHxZ/IMG-E0988-5.jpg" alt="A Photo of the handsome man who built this."><br><br><br>
+   <a href="mailto:jcapps@protonmail.com" class="jodyfoster">E-Mail</a>
+   <a id="profile-link" href="https://www.freecodecamp.org/milkish" target="_blank" class="jodyfoster">freeCodeCamp</a>
+   <a id="profile-link" href="https://github.com/j-milk" target="_blank" class="jodyfoster">GitHub</a>
+   <a href="https://www.instagram.com/legacymusicinc/" target="_blank" class="jodyfoster">Instagram</a>
+  </div>
+ </body>
+</html>
+
+
+</html>
