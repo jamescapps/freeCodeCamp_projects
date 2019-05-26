@@ -1,0 +1,19 @@
+function rot13(str) { // LBH QVQ VG!
+    var results = [];
+
+    for (var i = 0; i < str.length; i++) {
+        var charNum = str.charCodeAt(i);
+
+        if (charNum >= 65 && charNum <= 77) {
+            charNum += 13;
+        } else if (charNum >= 78 && charNum <= 90) {
+            charNum -= 13;
+        }
+        results.push(String.fromCharCode(charNum));
+    }
+  
+    return results.join('');
+  }
+  
+  // Change the inputs below to test
+  rot13("SERR PBQR PNZC");
