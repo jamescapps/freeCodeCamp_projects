@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  background-color: white;
+  width: 800px;
+  height: 400px;
+  padding: 40px 50px;
+}
+
+#quote-box #text {
+  font-size: 3.0em;
+  text-align: center;
+  color: black;
+}
+
+#quote-box #author {
+  font-size: 2.0em;
+  color: black;
+  float: right;
+}
+
+#quote-box .buttons {
+  padding: 80px 180px 60px 180px;
+  margin-top: 100px;
+}
+
+#quote-box .buttons #tweet-quote {
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#quote-box .buttons #new-quote {
+  float: right;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=style.css.map */

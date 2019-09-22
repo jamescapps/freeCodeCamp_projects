@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  #quote-box {
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    padding:40px 50px;
+    #text {
+      font-size: 3.0em;
+      text-align: center;
+      color: black;
+    }
+    #author {
+      font-size: 2.0em;
+      color: black;
+      float: right;
+    }
+    .buttons {
+      padding: 80px 180px 60px 180px;
+      margin-top: 100px;
+     
+      #tweet-quote {
+        float: left;
+        padding: 10px;
+        cursor: pointer;
+       }
+      #new-quote {
+        float: right;
+        border: 2px solid black;
+      }
+    }
+  }
+  
+  
